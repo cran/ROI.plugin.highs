@@ -1,10 +1,17 @@
 make_highs_signatures <- function() {
-    ROI_plugin_make_signature(objective = c("Q", "L"),
-                              constraints = c("X", "L"),
-                              types = c("C", "I", "B", "CI", "CB", "IB", "CIB"),
-                              bounds = c("X", "V"),
-                              cones = c("X"),
-                              maximum = c(TRUE, FALSE))
+    rbind(ROI_plugin_make_signature(objective = c("L"),
+                                    constraints = c("X", "L"),
+                                    types = c("C", "I", "B", "CI", "CB", "IB", "CIB"),
+                                    bounds = c("X", "V"),
+                                    cones = c("X"),
+                                    maximum = c(TRUE, FALSE)),
+          ROI_plugin_make_signature(objective = c("Q"),
+                                    constraints = c("X", "L"),
+                                    types = c("C"),
+                                    bounds = c("X", "V"),
+                                    cones = c("X"),
+                                    maximum = c(TRUE, FALSE))
+    )
 }
 
 

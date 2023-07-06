@@ -1,4 +1,5 @@
 \name{Example-1}
+\alias{Example-1}
 \title{Linear Problem 1}
 \description{
 \deqn{maximize \ \ 2 x_1 + 4 x_2 + 3 x_3}
