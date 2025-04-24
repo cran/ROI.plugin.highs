@@ -1,8 +1,9 @@
-7726d9563f61b64547736e979545e589 *DESCRIPTION
+209105335caa78700be5c8cbf41e7277 *DESCRIPTION
 939d9510d562ef31287ab02719999139 *NAMESPACE
 ca0c2f2a70f5c9abe19057f7a08e3c89 *R/plugin.R
 4da991603f09e5e0b7ef853ec3c60a2b *R/status_codes.R
 2821cd6933484ffe73b149fd0f90f739 *R/zzz.R
 4dd3db10e0368022ab9520f4452c5445 *README.md
+c39af4a8846e4fe1a41508a1ad9bfcdd *inst/tinytest/test_lp-solver.R
+8f0ca26e78fcdefc08cb85ff447b8300 *inst/tinytest/test_qp-solver.R
 fb9d715ebb843c51cef94bbf2a755c85 *man/Example_01.Rd
-f44c1e4721a246e8c604c83badca54ec *tests/test_highs.R
